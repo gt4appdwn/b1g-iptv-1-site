@@ -1,0 +1,27 @@
+{
+  "name": "B1G IPTV",
+  "short_name": "B1G",
+  "description": "Stream 4K and 8K channels, sports, and on-demand titles with B1G IPTV. Start your 24-hour free trial now and see everything live. Plans for every budget.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#08080a",
+  "theme_color": "#f04242",
+  "icons": [
+    {
+      "src": "assets/favicon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/favicon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

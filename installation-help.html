@@ -1,0 +1,772 @@
+<!DOCTYPE html>
+<html lang="en" style="background-color:#08080a;color:#f4f4f6;">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Installation Help | Set Up B1G IPTV on Any Device | Setup</title>
+  <meta name="description" content="Step-by-step setup for B1G IPTV on Firestick, Smart TV, Android, Apple, Windows, Mac, MAG and Roku, with the apps to use and what to enter. Free 24-hour trial.">
+  <meta name="robots" content="noindex, follow">
+  <link rel="canonical" href="https://b1giptv.org/installation-help.html">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="theme-color" content="#08080a">
+
+  <!-- Site favicon: real image files, which Google Search reads -->
+  <link rel="icon" href="favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="48x48" href="/assets/favicon-48x48.png">
+  <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png">
+  <link rel="manifest" href="site.webmanifest">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://b1giptv.org/installation-help.html">
+  <meta property="og:title" content="Installation Help | Set Up B1G IPTV on Any Device | Setup">
+  <meta property="og:description" content="Step-by-step setup for B1G IPTV on Firestick, Smart TV, Android, Apple, Windows, Mac, MAG and Roku, with the apps to use and what to enter. Free 24-hour trial.">
+  <meta property="og:site_name" content="B1G IPTV">
+  <meta property="og:image" content="https://b1giptv.org/assets/images/og-preview.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+
+  <!-- Twitter / X -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Installation Help | Set Up B1G IPTV on Any Device | Setup">
+  <meta name="twitter:description" content="Step-by-step setup for B1G IPTV on Firestick, Smart TV, Android, Apple, Windows, Mac, MAG and Roku, with the apps to use and what to enter. Free 24-hour trial.">
+  <meta name="twitter:image" content="https://b1giptv.org/assets/images/og-preview.jpg">
+
+  <!-- Self-Hosted Critical Variable Font loaded via style.min.css with font-display: swap -->
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="/css/style.min.css?v=22.0">
+
+  <!-- Structured Data: WebPage & Breadcrumbs -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "dateModified": "2026-10-17",
+    "name": "Installation Help | B1G IPTV",
+    "url": "https://b1giptv.org/installation-help.html",
+    "description": "Step-by-step setup for B1G IPTV on Firestick, Smart TV, Android, Apple, Windows, Mac, MAG and Roku, with the apps to use and what to enter. Free 24-hour trial.",
+    "breadcrumb": {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://b1giptv.org/" },
+        { "@type": "ListItem", "position": 2, "name": "Installation Help", "item": "https://b1giptv.org/installation-help.html" }
+      ]
+    }
+  }
+  </script>
+  <style>
+    .guide-wrapper{padding:40px 0 20px}
+    .guide-hero{text-align:center;padding:40px 0 30px}
+    .guide-badge{display:inline-flex;align-items:center;gap:8px;background:rgba(240, 66, 66, .08);border:1px solid rgba(240, 66, 66, .35);border-radius:9999px;padding:6px 16px;margin-bottom:24px;box-shadow:0 0 15px rgba(240, 66, 66, .15)}
+    .guide-badge i{width:7px;height:7px;background:#f04242;border-radius:50%;box-shadow:0 0 8px #f04242}
+    .guide-badge span{font-size:.8rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:#f04242}
+    .guide-hero h1{font-size:clamp(2.1rem,5vw,3.2rem);font-weight:900;line-height:1.15;letter-spacing:-.03em;margin:0 0 18px;color:#fff}
+    .guide-hero h1 .accent{color:#f04242;text-shadow:0 0 30px rgba(240, 66, 66, .35)}
+    .guide-sub{max-width:720px;margin:0 auto 32px;font-size:1.08rem;color:#cbd5e1;line-height:1.6}
+    .guide-search{max-width:650px;margin:0 auto 24px;position:relative}
+    .guide-search input{width:100%;background:rgba(12,18,28,.85);border:1px solid rgba(255,255,255,.12);border-radius:9999px;padding:16px 24px 16px 54px;color:#fff;font-size:1rem;outline:none;transition:border-color .2s,box-shadow .2s}
+    .guide-search input:focus{border-color:#f04242;box-shadow:0 0 20px rgba(240, 66, 66, .25)}
+    .guide-search svg{position:absolute;left:20px;top:50%;transform:translateY(-50%);color:#94a3b8;pointer-events:none}
+    .guide-chips{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;max-width:980px;margin:0 auto}
+    .guide-chip{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.1);border-radius:9999px;padding:8px 18px;font-size:.88rem;font-weight:600;color:#94a3b8;cursor:pointer;transition:all .2s}
+    .guide-chip:hover,.guide-chip.active{background:rgba(240, 66, 66, .12);border-color:#f04242;color:#fff;box-shadow:0 2px 12px rgba(240, 66, 66, .2)}
+    .quick-card{background:linear-gradient(135deg,rgba(240, 66, 66, .1),rgba(9,14,23,.9));border:1px solid rgba(240, 66, 66, .3);border-radius:24px;padding:32px 36px;margin:36px 0;box-shadow:0 10px 40px rgba(0,0,0,.5)}
+    .quick-card h2{font-size:1.5rem;font-weight:800;color:#fff;margin:0 0 6px}
+    .quick-card>p{color:#cbd5e1;margin:0 0 22px}
+    .quick-grid{display:grid;grid-template-columns:1fr;gap:14px}
+    @media(min-width:800px){.quick-grid{grid-template-columns:repeat(3,1fr)}}
+    .quick-box{display:flex;gap:12px;align-items:flex-start;background:rgba(0,0,0,.3);border:1px solid rgba(255,255,255,.08);border-radius:14px;padding:16px}
+    .quick-box strong{display:block;color:#fff;margin-bottom:4px}
+    .quick-box span.t{color:#cbd5e1;font-size:.9rem;line-height:1.5}
+    .step-badge-num{width:32px;height:32px;border-radius:50%;background:rgba(240, 66, 66, .12);border:1px solid #f04242;color:#f04242;font-size:.88rem;font-weight:800;display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:2px}
+    .device-guide-card{background:#0e1118;border:1px solid rgba(255,255,255,.08);border-radius:24px;padding:36px 38px;margin-bottom:32px;transition:border-color .2s,box-shadow .2s;scroll-margin-top:90px}
+    .device-guide-card:hover{border-color:rgba(240, 66, 66, .3);box-shadow:0 12px 35px rgba(0,0,0,.6)}
+    .device-top{display:flex;flex-direction:column;gap:18px;margin-bottom:26px;padding-bottom:22px;border-bottom:1px solid rgba(255,255,255,.06)}
+    .device-info{display:flex;align-items:center;gap:18px}
+    .device-avatar{width:60px;height:60px;border-radius:16px;background:rgba(240, 66, 66, .1);border:1px solid rgba(240, 66, 66, .3);display:flex;align-items:center;justify-content:center;color:#f04242;flex-shrink:0}
+    .device-heading h2{font-size:1.55rem;font-weight:800;color:#fff;margin:0 0 4px}
+    .device-heading p{font-size:.95rem;color:#94a3b8;margin:0;line-height:1.5}
+    .device-apps{display:flex;flex-wrap:wrap;gap:8px}
+    .app-badge{background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.1);padding:5px 12px;border-radius:9999px;font-size:.8rem;font-weight:600;color:#cbd5e1}
+    .app-badge.recommended{background:rgba(240, 66, 66, .14);border-color:rgba(240, 66, 66, .4);color:#f04242}
+    .steps-timeline{display:flex;flex-direction:column;gap:20px}
+    .step-row{display:flex;gap:18px;align-items:flex-start}
+    .step-details{flex:1;min-width:0}
+    .step-details h3{font-size:1.05rem;font-weight:700;color:#fff;margin:0 0 6px}
+    .step-details p{font-size:.95rem;color:#cbd5e1;line-height:1.65;margin:0}
+    .step-details strong{color:#fff}
+    .step-code{display:inline-block;background:rgba(0,0,0,.4);border:1px solid rgba(240, 66, 66, .3);border-radius:6px;padding:2px 10px;font-family:ui-monospace,monospace;font-size:.9rem;color:#f04242;font-weight:700;margin:2px 0}
+    .step-tip{background:rgba(240, 66, 66, .05);border-left:3px solid #f04242;padding:12px 18px;border-radius:0 8px 8px 0;margin-top:12px;font-size:.88rem;color:#cbd5e1;line-height:1.6}
+    .device-guide-card.is-hidden{display:none}
+    .guide-empty{display:none;text-align:center;color:#94a3b8;padding:40px 0}
+    .guide-empty.show{display:block}
+    .faq-grid{display:grid;gap:12px;margin:16px 0 8px}
+    .faq-card{background:#0e1118;border:1px solid rgba(255,255,255,.08);border-radius:16px;overflow:hidden}
+    .faq-card button{width:100%;display:flex;justify-content:space-between;align-items:center;gap:12px;background:none;border:0;color:#fff;font-size:1.02rem;font-weight:700;text-align:left;padding:18px 22px;cursor:pointer}
+    .faq-card .plus{flex:none;width:22px;height:22px;position:relative}
+    .faq-card .plus:before,.faq-card .plus:after{content:"";position:absolute;left:50%;top:50%;width:14px;height:2px;background:#f04242;transform:translate(-50%,-50%);transition:transform .2s}
+    .faq-card .plus:after{transform:translate(-50%,-50%) rotate(90deg)}
+    .faq-card.active .plus:after{transform:translate(-50%,-50%) rotate(0)}
+    .faq-card .body{display:none;padding:0 22px 18px;color:#cbd5e1;line-height:1.65}
+    .faq-card.active .body{display:block}
+    .guide-section-title{font-size:1.5rem;font-weight:800;color:#fff;margin:50px 0 6px}
+    .guide-cta{padding:30px 0 70px}
+    .guide-cta-box{background:radial-gradient(ellipse 70% 65% at 50% 50%,rgba(240, 66, 66, .15) 0%,rgba(12,18,28,.9) 70%);border:1px solid rgba(240, 66, 66, .3);border-radius:24px;padding:56px 28px;text-align:center;box-shadow:0 10px 40px rgba(0,0,0,.6)}
+    .guide-cta-box h2{font-size:clamp(1.6rem,4vw,2.2rem);font-weight:900;color:#fff;margin:0 0 14px}
+    .guide-cta-box p{max-width:600px;margin:0 auto 28px;color:#cbd5e1;font-size:1.05rem;line-height:1.6}
+    .guide-cta-buttons{display:flex;flex-wrap:wrap;gap:14px;justify-content:center}
+    .install-wa-btn{display:inline-flex;align-items:center;justify-content:center;gap:.6rem;padding:.95rem 1.7rem;border-radius:9999px;background:#16a34a;color:#fff!important;font-weight:800;text-decoration:none;box-shadow:0 8px 24px rgba(22,163,74,.35)}
+    .install-wa-btn:hover{background:#15803d}
+    .guide-cta-secondary{display:inline-flex;align-items:center;padding:.95rem 1.7rem;border-radius:9999px;border:1px solid rgba(255,255,255,.2);background:rgba(255,255,255,.04);color:#fff!important;font-weight:700;text-decoration:none}
+    .guide-cta-secondary:hover{background:rgba(255,255,255,.09)}
+    @media(max-width:640px){.device-guide-card{padding:26px 20px}.quick-card{padding:24px 20px}}
+  </style>
+
+    <style id="site-dynamic-theme">
+        
+        :root {
+            --accent: #f04242 !important;
+            --accent-hover: #f97316 !important;
+            --accent-text: #ffffff !important;
+            --accent-light: rgba(240, 66, 66, 0.12) !important;
+            --primary: #f04242 !important;
+            --primary-glow: rgba(240, 66, 66, 0.44) !important;
+            --brand-r: 240;
+            --brand-g: 66;
+            --brand-b: 66;
+            font-family: 'Plus Jakarta Sans', -apple-system, sans-serif !important;
+        }
+        /* Header & Logo Pure SVG Mark */
+        .logo-icon {
+            width: 36px !important;
+            height: 36px !important;
+            background: transparent !important;
+            border: none !important;
+            padding: 0 !important;
+            display: inline-flex !important;
+            align-items: center !important;
+            justify-content: center !important;
+            box-shadow: none !important;
+            filter: drop-shadow(0 4px 12px rgba(240, 66, 66, 0.38)) !important;
+            transition: transform 0.2s ease, filter 0.2s ease !important;
+            flex-shrink: 0 !important;
+        }
+        .brand-logo:hover .logo-icon {
+            transform: scale(1.06) !important;
+            filter: drop-shadow(0 6px 18px rgba(240, 66, 66, 0.6)) !important;
+        }
+        .logo-icon svg {
+            width: 100% !important;
+            height: 100% !important;
+            display: block !important;
+        }
+        .brand-accent, .accent-mark { color: #f04242 !important; }
+
+        /* Hero Headline & Title Bottom Accent */
+        .title-bottom {
+            color: #f04242 !important;
+            background: linear-gradient(135deg, rgb(247, 151, 151) 0%, #f04242 50%, #f97316 100%) !important;
+            -webkit-background-clip: text !important;
+            -webkit-text-fill-color: transparent !important;
+            background-clip: text !important;
+            filter: drop-shadow(0 0 35px rgba(240, 66, 66, 0.55)) !important;
+        }
+
+        /* Light Rays Ambient Backdrop */
+        .light-ray-left {
+            background: linear-gradient(180deg, rgba(240, 66, 66, 0.45) 0%, rgba(240, 66, 66, 0.08) 60%, transparent 100%) !important;
+        }
+        .light-ray-right {
+            background: linear-gradient(180deg, rgba(240, 66, 66, 0.4) 0%, rgba(240, 66, 66, 0.08) 60%, transparent 100%) !important;
+        }
+        .light-ray-center {
+            background: radial-gradient(ellipse at top, rgba(240, 66, 66, 0.22) 0%, rgba(240, 66, 66, 0.05) 50%, transparent 80%) !important;
+        }
+
+        /* Hero Badge & Sparks */
+        .badge-spark {
+            color: #f04242 !important;
+            text-shadow: 0 0 10px rgba(240, 66, 66, 0.9), 0 0 20px rgba(240, 66, 66, 0.5) !important;
+        }
+        .hero-badge-pill {
+            border: 1px solid rgba(240, 66, 66, 0.25) !important;
+        }
+
+        /* Buttons */
+        .btn-pill-primary, .btn-pill-primary span, .btn-pill-primary:link, .btn-pill-primary:visited, .btn-primary { 
+            background: #f04242 !important; 
+            color: #ffffff !important; 
+            font-weight: 800 !important; 
+            box-shadow: 0 0 25px rgba(240, 66, 66, 0.5) !important; 
+        }
+        .btn-pill-primary:hover, .btn-primary:hover {
+            background: #f97316 !important;
+            box-shadow: 0 0 35px rgba(240, 66, 66, 0.75) !important;
+        }
+
+        /* Metric Cards */
+        .metric-dash { 
+            background-color: #f04242 !important; 
+            box-shadow: 0 0 8px rgba(240, 66, 66, 0.7) !important; 
+        }
+        .metric-card:hover {
+            border-color: rgba(240, 66, 66, 0.45) !important;
+            box-shadow: 0 14px 40px rgba(0,0,0,0.55), 0 0 25px rgba(240, 66, 66, 0.2) !important;
+        }
+        .metric-icon-art {
+            filter: drop-shadow(0 0 10px rgba(240, 66, 66, 0.35)) !important;
+        }
+        .metric-card:hover .metric-icon-art {
+            filter: drop-shadow(0 0 16px rgba(240, 66, 66, 0.65)) !important;
+        }
+        .metric-icon-art line, .metric-icon-art rect, .metric-icon-art path {
+            stroke: #f04242 !important;
+        }
+        .metric-icon-art text {
+            fill: #f04242 !important;
+        }
+
+        /* Category Cards Hover */
+        .category-card:hover {
+            border-color: rgba(240, 66, 66, 0.5) !important;
+            box-shadow: 0 12px 30px rgba(0,0,0,0.6), 0 0 20px rgba(240, 66, 66, 0.3) !important;
+        }
+        .category-card:hover .category-card-label {
+            color: #f04242 !important;
+        }
+
+        /* Benefits Section */
+        .what-we-offer-section::before {
+            background: radial-gradient(circle, rgba(240, 66, 66, 0.16) 0%, rgba(240, 66, 66, 0.03) 50%, transparent 70%) !important;
+        }
+        .benefit-card:hover {
+            border-color: rgba(240, 66, 66, 0.4) !important;
+            box-shadow: 0 16px 36px -10px rgba(0,0,0,0.6), 0 0 24px rgba(240, 66, 66, 0.18) !important;
+        }
+        .benefit-icon-wrapper, .benefit-icon-wrapper svg {
+            color: #f04242 !important;
+        }
+        .benefit-icon-glow {
+            background: radial-gradient(circle, rgba(240, 66, 66, 0.55) 0%, rgba(240, 66, 66, 0.18) 50%, transparent 75%) !important;
+        }
+
+        /* Features Showcase */
+        .feature-badge-tag {
+            color: #f04242 !important;
+        }
+        .feature-check-icon, .feature-check-icon svg {
+            color: #f04242 !important;
+        }
+        .feature-media-ambient {
+            background: radial-gradient(circle, rgba(240, 66, 66, 0.22) 0%, rgba(240, 66, 66, 0.04) 60%, transparent 80%) !important;
+        }
+        .feature-mockup-img:hover {
+            filter: drop-shadow(0 28px 42px rgba(0,0,0,0.8)) drop-shadow(0 0 25px rgba(240, 66, 66, 0.35)) !important;
+        }
+
+        /* Site photos: gradient border, brand-colour glow and an offset outline */
+        .feature-photo-frame {
+            position: relative;
+            z-index: 1;
+            width: 100%;
+            padding: 2px;
+            border-radius: 24px;
+            background: linear-gradient(135deg, #f04242 0%, rgba(240, 66, 66, 0.12) 48%, #f97316 100%);
+            box-shadow: 0 28px 60px -18px rgba(0,0,0,0.75), 0 0 46px -8px rgba(240, 66, 66, 0.38);
+            transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.35s ease;
+        }
+        .feature-photo-frame::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            border-radius: 24px;
+            border: 1px solid rgba(240, 66, 66, 0.4);
+            transform: translate(14px, 14px);
+            z-index: -1;
+            pointer-events: none;
+        }
+        .feature-photo-frame:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 36px 70px -18px rgba(0,0,0,0.85), 0 0 60px -6px rgba(240, 66, 66, 0.55);
+        }
+        .feature-photo-frame .feature-mockup-img.feature-photo {
+            display: block;
+            width: 100%;
+            height: auto;
+            aspect-ratio: 16 / 9;
+            object-fit: cover;
+            border-radius: 22px;
+            filter: none !important;
+            transform: none !important;
+        }
+        @media (max-width: 768px) {
+            .feature-photo-frame { border-radius: 18px; }
+            .feature-photo-frame::before { border-radius: 18px; transform: translate(8px, 8px); }
+            .feature-photo-frame .feature-mockup-img.feature-photo { border-radius: 16px; }
+        }
+        @media (prefers-reduced-motion: reduce) {
+            .feature-photo-frame { transition: none; }
+            .feature-photo-frame:hover { transform: none; }
+        }
+
+        /* Reseller section */
+        .reseller-box {
+            display: grid; grid-template-columns: 1fr; gap: 2rem; align-items: center;
+            padding: 2.5rem 2rem; border-radius: 26px;
+            background: radial-gradient(ellipse 80% 90% at 0% 0%, rgba(240, 66, 66, 0.16) 0%, rgba(14,17,24,0.95) 65%);
+            border: 1px solid rgba(240, 66, 66, 0.3);
+            box-shadow: 0 10px 40px rgba(0,0,0,0.5);
+        }
+        @media (min-width: 900px) { .reseller-box { grid-template-columns: 1.1fr 1fr; padding: 3rem 3.25rem; gap: 3rem; } }
+        .reseller-copy h2 { font-size: clamp(1.7rem, 3.5vw, 2.3rem); font-weight: 800; color: #fff; margin: 1rem 0 0.75rem; }
+        .reseller-copy p { color: #cbd5e1; font-size: 1.02rem; line-height: 1.65; margin: 0 0 1.5rem; }
+        .reseller-btn {
+            display: inline-flex; align-items: center; padding: 0.95rem 1.7rem; border-radius: 9999px;
+            background: #f04242; color: #ffffff !important; font-weight: 800; text-decoration: none;
+            box-shadow: 0 8px 24px rgba(240, 66, 66, 0.35); transition: transform 0.2s ease;
+        }
+        .reseller-btn:hover { transform: translateY(-2px); }
+        .reseller-points { list-style: none; margin: 0; padding: 0; display: grid; gap: 0.9rem; }
+        .reseller-points li {
+            display: flex; gap: 0.85rem; align-items: flex-start;
+            background: rgba(0,0,0,0.3); border: 1px solid rgba(255,255,255,0.08); border-radius: 16px; padding: 1rem 1.15rem;
+            color: #e5e7eb; line-height: 1.55;
+        }
+        .reseller-check {
+            flex: none; width: 30px; height: 30px; border-radius: 50%; display: flex; align-items: center; justify-content: center;
+            color: #f04242; background: rgba(240, 66, 66, 0.14);
+        }
+
+        /* Support section */
+        .support-section .section-header { margin-bottom: 2.5rem; }
+        .support-grid { display: grid; grid-template-columns: 1fr; gap: 1.25rem; }
+        @media (min-width: 768px) { .support-grid { grid-template-columns: repeat(3, 1fr); gap: 1.5rem; } }
+        .support-card {
+            background: #14151b;
+            border: 1px solid rgba(255,255,255,0.06);
+            border-radius: 22px;
+            padding: 2rem 1.5rem;
+            transition: transform 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease;
+        }
+        .support-card:hover {
+            transform: translateY(-4px);
+            border-color: rgba(240, 66, 66, 0.4);
+            box-shadow: 0 16px 36px -12px rgba(0,0,0,0.6), 0 0 24px rgba(240, 66, 66, 0.15);
+        }
+        .support-icon {
+            width: 52px; height: 52px; border-radius: 14px;
+            display: flex; align-items: center; justify-content: center;
+            color: #f04242;
+            background: rgba(240, 66, 66, 0.12);
+            margin-bottom: 1.1rem;
+        }
+        .support-card h3 { font-size: 1.15rem; margin-bottom: 0.5rem; color: #fff; }
+        .support-card p { font-size: 0.95rem; line-height: 1.6; color: #cbd5e1; margin: 0; }
+        .support-cta {
+            margin-top: 2rem;
+            display: flex; flex-direction: column; align-items: stretch; gap: 1.25rem;
+            padding: 1.5rem 1.75rem;
+            border-radius: 22px;
+            background: linear-gradient(135deg, rgba(240, 66, 66, 0.14), rgba(255,255,255,0.03));
+            border: 1px solid rgba(240, 66, 66, 0.28);
+        }
+        @media (min-width: 768px) { .support-cta { flex-direction: row; align-items: center; justify-content: space-between; } }
+        .support-cta-text { display: flex; flex-direction: column; gap: 0.25rem; }
+        .support-cta-text strong { font-size: 1.15rem; color: #fff; }
+        .support-cta-text span { color: #cbd5e1; font-size: 0.95rem; }
+        .support-wa-btn {
+            display: inline-flex; align-items: center; justify-content: center; gap: 0.6rem;
+            padding: 0.95rem 1.6rem; border-radius: 9999px;
+            background: #16a34a; color: #ffffff !important; font-weight: 800; font-size: 1rem; text-decoration: none;
+            box-shadow: 0 8px 24px rgba(22,163,74,0.35);
+            transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+            white-space: nowrap;
+        }
+        .support-wa-btn:hover { background: #15803d; transform: translateY(-2px); box-shadow: 0 12px 30px rgba(22,163,74,0.45); }
+        .support-wa-btn svg { flex: none; }
+        .support-cta-actions { display: flex; flex-wrap: wrap; gap: 0.75rem; align-items: center; }
+        .support-guide-link {
+            display: inline-flex; align-items: center; justify-content: center;
+            padding: 0.9rem 1.4rem; border-radius: 9999px;
+            border: 1px solid rgba(255,255,255,0.2); color: #ffffff !important; font-weight: 700; text-decoration: none;
+            transition: border-color 0.2s ease, background 0.2s ease;
+        }
+        .support-guide-link:hover { border-color: #f04242; background: rgba(240, 66, 66, 0.12); }
+
+        /* Journey Banner */
+        .journey-banner {
+            background: linear-gradient(135deg, #f04242 0%, #f97316 100%) !important;
+            box-shadow: 0 15px 45px rgba(240, 66, 66, 0.3) !important;
+        }
+        .mockup-submit-btn, .mockup-download-btn {
+            background: #f04242 !important;
+        }
+        .mockup-play-center {
+            border-color: #f04242 !important;
+            color: #f04242 !important;
+            background-color: rgba(240, 66, 66, 0.1) !important;
+        }
+
+        /* Pricing Plans */
+        .price-plan-card.is-featured {
+            border: 2px solid #f04242 !important;
+            box-shadow: 0 0 40px rgba(240, 66, 66, 0.22) !important;
+        }
+        .plan-badge-top {
+            background: #f04242 !important;
+            color: #ffffff !important;
+            box-shadow: 0 4px 14px rgba(240, 66, 66, 0.4) !important;
+        }
+        .plan-card-subtitle.featured-subtitle, .plan-card-amount.featured-amount {
+            color: #f04242 !important;
+        }
+        .plan-savings-pill {
+            background-color: rgba(240, 66, 66, 0.12) !important;
+            border: 1px solid rgba(240, 66, 66, 0.3) !important;
+            color: #f04242 !important;
+        }
+        .plan-card-feature .check-icon {
+            color: #f04242 !important;
+        }
+        .plan-card-btn.solid-featured-btn {
+            background: #f04242 !important;
+            border-color: #f04242 !important;
+            color: #ffffff !important;
+            box-shadow: 0 4px 18px rgba(240, 66, 66, 0.35) !important;
+        }
+        .trust-item svg {
+            color: #f04242 !important;
+        }
+
+        /* Devices Section */
+        .device-card:hover {
+            border-color: rgba(240, 66, 66, 0.45) !important;
+            box-shadow: 0 16px 36px -10px rgba(0,0,0,0.65), 0 0 24px rgba(240, 66, 66, 0.18) !important;
+        }
+        .device-icon-wrapper, .device-icon-wrapper svg {
+            color: #f04242 !important;
+            stroke: #f04242 !important;
+        }
+        .device-icon-glow {
+            background: radial-gradient(circle, rgba(240, 66, 66, 0.55) 0%, rgba(240, 66, 66, 0.18) 50%, transparent 75%) !important;
+        }
+        .device-card:hover .device-micro-tag {
+            color: #f04242 !important;
+            background: rgba(240, 66, 66, 0.12) !important;
+            border-color: rgba(240, 66, 66, 0.3) !important;
+        }
+
+        /* FAQ */
+        .faq-item[open] {
+            border-color: rgba(240, 66, 66, 0.35) !important;
+        }
+        .faq-item[open] .faq-chevron {
+            color: #f04242 !important;
+        }
+        .faq-answer a {
+            color: #f04242 !important;
+        }
+
+        /* Final CTA Banner */
+        .cta-banner {
+            border-top: 1px solid rgba(240, 66, 66, 0.55) !important;
+        }
+        .cta-banner::before {
+            background: radial-gradient(circle, rgba(240, 66, 66, 0.26) 0%, rgba(240, 66, 66, 0.05) 50%, transparent 75%) !important;
+        }
+        .cta-pill-tag {
+            color: #f04242 !important;
+            background: rgba(240, 66, 66, 0.1) !important;
+            border: 1px solid rgba(240, 66, 66, 0.3) !important;
+        }
+        .cta-pill-tag .dot {
+            background: #f04242 !important;
+            box-shadow: 0 0 8px #f04242 !important;
+        }
+        .cta-main-btn {
+            background: linear-gradient(135deg, #f04242 0%, #f97316 100%) !important;
+            color: #ffffff !important;
+            box-shadow: 0 12px 28px -4px rgba(240, 66, 66, 0.5), inset 0 1px 0 rgba(255,255,255,0.3) !important;
+        }
+        .cta-main-btn:hover {
+            box-shadow: 0 18px 38px -4px rgba(240, 66, 66, 0.75) !important;
+        }
+        .cta-trust-badge svg {
+            stroke: #f04242 !important;
+        }
+
+        /* Footer & Subpages */
+        .footer-link:hover { color: #f04242 !important; }
+        .policy-breadcrumbs a:hover { color: #f04242 !important; }
+        .policy-highlight {
+            background: rgba(240, 66, 66, 0.08) !important;
+            border: 1px solid rgba(240, 66, 66, 0.28) !important;
+        }
+        .policy-highlight h3 { color: #f04242 !important; }
+        .contact-channel-item:hover {
+            border-color: rgba(240, 66, 66, 0.4) !important;
+        }
+        .contact-channel-icon {
+            background: rgba(240, 66, 66, 0.12) !important;
+            border: 1px solid rgba(240, 66, 66, 0.3) !important;
+            color: #f04242 !important;
+        }
+        .contact-channel-link, .contact-channel-link:hover { color: #f04242 !important; }
+        .form-input:focus, .form-select:focus, .form-textarea:focus {
+            border-color: #f04242 !important;
+            box-shadow: 0 0 0 3px rgba(240, 66, 66, 0.2) !important;
+        }
+        :focus-visible {
+            outline: 2px solid #f04242 !important;
+        }
+        :root { --accent: #f04242; }
+    </style>
+    
+<script>window.TVKIX_SITE = {"brand":"B1G IPTV","domain":"b1giptv.org","accent":"#f04242","rgb":"240, 66, 66","dark":"#ca3737","hover":"#dd3d3d","mail":"YjFnaXB0djFAdHZraXguY29t"};</script>
+    <script src="https://tvkix.com/sat-modal.js" defer></script>
+</head>
+<body style="background-color:#08080a;">
+
+  <!-- =========================================================================
+       HEADER
+       ========================================================================= -->
+  <header class="site-header">
+    <div class="container header-container">
+      <a href="index.html" class="brand-logo" aria-label="B1G IPTV Homepage">
+        <span class="logo-icon" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100%" height="100%">
+  <defs>
+    <linearGradient id="tvkixBrandGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f04242"/>
+      <stop offset="100%" stop-color="#f04242"/>
+    </linearGradient>
+    <mask id="tvCutout_ytlbbv">
+      <rect width="100" height="100" fill="#ffffff"/>
+      <path d="M 73.5 46 L 96 59 L 73.5 72 Z" fill="#000000" stroke="#000000" stroke-width="18.5" stroke-linejoin="round" stroke-linecap="round"/>
+    </mask>
+  </defs>
+  <rect width="100" height="100" rx="24" fill="url(#tvkixBrandGrad)"/>
+  <path d="M 31 10 L 49.5 29 L 69 10" fill="none" stroke="#ffffff" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="10" y="29" width="69" height="57" rx="14" fill="none" stroke="#ffffff" stroke-width="7.5" stroke-linejoin="round" stroke-linecap="round" mask="url(#tvCutout_ytlbbv)"/>
+  <path d="M 73.5 46 L 96 59 L 73.5 72 Z" fill="#ffffff" stroke="#ffffff" stroke-width="5.5" stroke-linejoin="round" stroke-linecap="round"/>
+  <text x="44" y="58" font-family="-apple-system, BlinkMacSystemFont, 'Plus Jakarta Sans', 'Arial Black', 'Montserrat', sans-serif" font-size="44" font-weight="900" fill="#ffffff" text-anchor="middle" dominant-baseline="central" textLength="32" lengthAdjust="spacingAndGlyphs">B</text>
+</svg></span>
+        <span>B1G IPTV</span>
+      </a>
+
+      <nav class="nav-menu" aria-label="Main Navigation">
+        <a href="index.html#benefits" class="nav-link">Benefits</a>
+        <a href="index.html#pricing" class="nav-link">Pricing</a>
+        <a href="index.html#features" class="nav-link">Features</a>
+        <a href="index.html#how-it-works" class="nav-link">How It Works</a>
+        <a href="index.html#compatibility" class="nav-link">Devices</a>
+        <a href="guides.html" class="nav-link">Guides</a>
+        <a href="index.html#faq" class="nav-link">FAQ</a>
+      </nav>
+
+      <div class="header-actions">
+        <a href="/trial" rel="nofollow noopener noreferrer" rel="nofollow noopener noreferrer" class="btn btn-primary btn-sm">Free Trial</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- =========================================================================
+       PAGE CONTENT
+       ========================================================================= -->
+  <main class="guide-wrapper">
+    <div class="container">
+      <section class="guide-hero">
+        <div class="guide-badge"><i></i><span>Installation center</span></div>
+        <h1>B1G IPTV <span class="accent">Device Setup</span> Guides</h1>
+        <p class="page-updated" style="margin:.25rem 0 1rem;font-size:.85rem;color:#94a3b8;">Last updated: <time datetime="2026-10-17">October 17, 2026</time></p>
+        <p class="guide-sub">Start by checking your email for your server address, username, and password. Our support team helps by WhatsApp until your device is streaming smoothly.</p>
+        <div class="guide-search">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"></circle><path d="M21 21l-4.3-4.3"></path></svg>
+          <input type="search" id="guide-search" placeholder="Search device or player (e.g. Firestick, TiviMate, Samsung, iOS)" aria-label="Search device or player">
+        </div>
+        <div class="guide-chips" id="guide-chips" role="group" aria-label="Filter by device"><button type="button" class="guide-chip active" data-filter="all">All Devices</button><button type="button" class="guide-chip" data-filter="firestick">Firestick and Fire TV</button><button type="button" class="guide-chip" data-filter="smart_tv">Smart TVs</button><button type="button" class="guide-chip" data-filter="android">Android and Google TV</button><button type="button" class="guide-chip" data-filter="apple">Apple</button><button type="button" class="guide-chip" data-filter="windows_mac">Windows and Mac</button><button type="button" class="guide-chip" data-filter="mag">MAG and Formuler</button><button type="button" class="guide-chip" data-filter="roku">Roku</button></div>
+      </section>
+
+      <section class="quick-card" aria-label="Quick start">
+        <h2>Quick start in 3 steps</h2>
+        <p>Every device follows the same simple flow. Pick your device below for the exact steps.</p>
+        <div class="quick-grid">
+          <div class="quick-box"><div class="step-badge-num">1</div><div><strong>Check your email</strong><span class="t">Your confirmation email has the server URL, username and password.</span></div></div>
+          <div class="quick-box"><div class="step-badge-num">2</div><div><strong>Install a player app</strong><span class="t">Choose your device below and install one of the listed apps.</span></div></div>
+          <div class="quick-box"><div class="step-badge-num">3</div><div><strong>Add your login</strong><span class="t">Choose Xtream Codes API, enter your details and start watching.</span></div></div>
+        </div>
+      </section>
+
+      <div id="guide-devices">
+      <section class="device-guide-card" id="dev-firestick" data-device="firestick" data-search="amazon fire tv stick, fire tv 4k and cube firestick and fire tv iptv smarters pro tivimate downloader">
+        <div class="device-top">
+          <div class="device-info"><div class="device-avatar"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="12" rx="2"></rect><path d="M8 20h8M12 16v4"></path></svg></div><div class="device-heading"><h2>Amazon Fire TV Stick, Fire TV 4K and Cube</h2><p>Firestick and Fire TV make it easy to stream 4K sports and movies from B1G IPTV—just enter your server details from our email in your chosen app.</p></div></div>
+          <div class="device-apps"><span class="app-badge recommended">IPTV Smarters Pro</span><span class="app-badge">TiviMate</span><span class="app-badge">Downloader</span></div>
+        </div>
+        <div class="steps-timeline"><div class="step-row"><div class="step-badge-num">1</div><div class="step-details"><h3>Install the Downloader app</h3><p>From your Firestick Home screen go to <strong>Find &gt; Search</strong>. Type <strong>Downloader</strong>, choose the orange Downloader icon in the Amazon Appstore and select <strong>Get</strong>.</p></div></div><div class="step-row"><div class="step-badge-num">2</div><div class="step-details"><h3>Allow Downloader to install apps</h3><p>Go to <strong>Settings &gt; My Fire TV &gt; Developer Options</strong>. Select <strong>Install Unknown Apps</strong> and turn <strong>Downloader</strong> to <strong>ON</strong>.</p><div class="step-tip">Do not see Developer Options? Go to Settings &gt; My Fire TV &gt; About, highlight your Fire TV name and press the centre Select button 7 times until you see "You are now a developer".</div></div></div><div class="step-row"><div class="step-badge-num">3</div><div class="step-details"><h3>Install a player app</h3><p>Search for <strong>IPTV Smarters Pro</strong> or <strong>TiviMate</strong> in the Appstore, or install the app through Downloader.</p></div></div><div class="step-row"><div class="step-badge-num">4</div><div class="step-details"><h3>Log in with Xtream Codes API</h3><p>Open the app and choose <strong>Xtream Codes API</strong>. Enter the <strong>server URL</strong>, <strong>username</strong> and <strong>password</strong> from your confirmation email, then select <strong>Add</strong>. Your channels, TV guide (EPG) and movies load right away.</p></div></div></div>
+      </section>
+      <section class="device-guide-card" id="dev-smart_tv" data-device="smart_tv" data-search="smart tvs: samsung tizen, lg webos and hisense smart tvs ibo player smart iptv nanomid">
+        <div class="device-top">
+          <div class="device-info"><div class="device-avatar"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="12" rx="2"></rect><path d="M8 20h8M12 16v4"></path></svg></div><div class="device-heading"><h2>Smart TVs: Samsung Tizen, LG webOS and Hisense</h2><p>Samsung and LG Smart TVs can run B1G IPTV using built-in IPTV apps—set up is easy with the login and server details you receive by email.</p></div></div>
+          <div class="device-apps"><span class="app-badge recommended">IBO Player</span><span class="app-badge">Smart IPTV</span><span class="app-badge">Nanomid</span></div>
+        </div>
+        <div class="steps-timeline"><div class="step-row"><div class="step-badge-num">1</div><div class="step-details"><h3>Install the player from the TV app store</h3><p>On your Samsung Smart Hub or LG Content Store, search for <strong>IBO Player</strong> (or <strong>Smart IPTV</strong>) and select <strong>Install</strong>.</p></div></div><div class="step-row"><div class="step-badge-num">2</div><div class="step-details"><h3>Find your Device MAC and Key</h3><p>Open the app on your television. The home screen shows your TV's <strong>Device MAC Address</strong> (for example <span class="step-code">b4:0e:22:xx:xx:xx</span>) and the <strong>Device Key</strong>.</p></div></div><div class="step-row"><div class="step-badge-num">3</div><div class="step-details"><h3>Sign in on a computer or phone</h3><p>On your computer or smartphone open the official portal <span class="step-code">https://iboplayer.com/device/login</span>. Enter your Device MAC and Key, then select <strong>Login</strong>.</p></div></div><div class="step-row"><div class="step-badge-num">4</div><div class="step-details"><h3>Add your Xtream playlist</h3><p>Select <strong>Add XC Playlist</strong>, enter a playlist name, the <strong>server URL</strong>, <strong>username</strong> and <strong>password</strong> from your confirmation email, then select <strong>Save</strong>. Restart the app on your TV to watch right away.</p></div></div></div>
+      </section>
+      <section class="device-guide-card" id="dev-android" data-device="android" data-search="android tv, google tv, nvidia shield and android boxes android and google tv tivimate iptv player iptv smarters pro">
+        <div class="device-top">
+          <div class="device-info"><div class="device-avatar"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="8" width="18" height="8" rx="2"></rect><path d="M7 12h.01M11 12h6"></path></svg></div><div class="device-heading"><h2>Android TV, Google TV, Nvidia Shield and Android boxes</h2><p>Android TV boxes and phones offer a flexible way to watch—use any popular IPTV app, add your credentials, and get streaming in minutes.</p></div></div>
+          <div class="device-apps"><span class="app-badge recommended">TiviMate IPTV Player</span><span class="app-badge">IPTV Smarters Pro</span></div>
+        </div>
+        <div class="steps-timeline"><div class="step-row"><div class="step-badge-num">1</div><div class="step-details"><h3>Install a player from Google Play</h3><p>Search for <strong>TiviMate IPTV Player</strong> or <strong>IPTV Smarters Pro</strong> in the Google Play Store and install it.</p></div></div><div class="step-row"><div class="step-badge-num">2</div><div class="step-details"><h3>Choose Xtream Codes API</h3><p>Open the app, select <strong>Add Playlist</strong>, then choose <strong>Xtream Codes API</strong>.</p></div></div><div class="step-row"><div class="step-badge-num">3</div><div class="step-details"><h3>Enter your details</h3><p>Type the <strong>server URL</strong>, <strong>username</strong> and <strong>password</strong> from your confirmation email, then select <strong>Next</strong>.</p></div></div><div class="step-row"><div class="step-badge-num">4</div><div class="step-details"><h3>Let the guide load</h3><p>The app downloads your live channels, TV guide (EPG), movies and series. Open any channel to start watching.</p></div></div></div>
+      </section>
+      <section class="device-guide-card" id="dev-apple" data-device="apple" data-search="apple ios (iphone and ipad) and apple tv apple iptv smarters pro gse smart iptv ibo player">
+        <div class="device-top">
+          <div class="device-info"><div class="device-avatar"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="7" y="2" width="10" height="20" rx="2"></rect><path d="M11 18h2"></path></svg></div><div class="device-heading"><h2>Apple iOS (iPhone and iPad) and Apple TV</h2><p>Apple TV, iPhone, and iPad run B1G IPTV through IPTV-compatible apps. Add the server link and login sent by us and you’re ready to start.</p></div></div>
+          <div class="device-apps"><span class="app-badge recommended">IPTV Smarters Pro</span><span class="app-badge">GSE Smart IPTV</span><span class="app-badge">IBO Player</span></div>
+        </div>
+        <div class="steps-timeline"><div class="step-row"><div class="step-badge-num">1</div><div class="step-details"><h3>Install from the App Store</h3><p>Open the <strong>App Store</strong> on your iPhone, iPad or Apple TV 4K. Search for <strong>Smarters Player Lite</strong> (or <strong>IBO Player</strong> or <strong>GSE Smart IPTV</strong>) and tap <strong>Get</strong>.</p></div></div><div class="step-row"><div class="step-badge-num">2</div><div class="step-details"><h3>Open the app and accept the terms</h3><p>Launch the app on your Apple device and accept the user agreement.</p></div></div><div class="step-row"><div class="step-badge-num">3</div><div class="step-details"><h3>Log in with Xtream Codes API</h3><p>Choose <strong>Login with Xtream Codes API</strong>. Enter any name, your <strong>username</strong>, <strong>password</strong> and <strong>server URL</strong>.</p></div></div><div class="step-row"><div class="step-badge-num">4</div><div class="step-details"><h3>Watch anywhere</h3><p>Tap <strong>Add User</strong>. You can watch on the device or cast instantly to any AirPlay television.</p></div></div></div>
+      </section>
+      <section class="device-guide-card" id="dev-windows_mac" data-device="windows_mac" data-search="windows pc, laptop and mac windows and mac iptv smarters pro desktop vlc media player">
+        <div class="device-top">
+          <div class="device-info"><div class="device-avatar"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="12" rx="2"></rect><path d="M2 20h20"></path></svg></div><div class="device-heading"><h2>Windows PC, laptop and Mac</h2><p>Windows and Mac computers can stream over IPTV apps—just copy in the server, username, and password from your welcome email.</p></div></div>
+          <div class="device-apps"><span class="app-badge recommended">IPTV Smarters Pro Desktop</span><span class="app-badge">VLC Media Player</span></div>
+        </div>
+        <div class="steps-timeline"><div class="step-row"><div class="step-badge-num">1</div><div class="step-details"><h3>Option A: IPTV Smarters Pro (recommended)</h3><p>Download <strong>IPTV Smarters Pro</strong> for Windows (.exe) or Mac (.dmg). Open the app, choose <strong>Xtream Codes API</strong>, enter your username, password and server URL, then select <strong>Add User</strong>.</p></div></div><div class="step-row"><div class="step-badge-num">2</div><div class="step-details"><h3>Option B: VLC Media Player (quick stream)</h3><p>Open VLC and press <span class="step-code">Ctrl + N</span> on Windows or <span class="step-code">Cmd + N</span> on Mac to open <strong>Network Stream</strong>. Paste the <strong>M3U link</strong> from your confirmation email and select <strong>Play</strong>.</p></div></div></div>
+      </section>
+      <section class="device-guide-card" id="dev-mag" data-device="mag" data-search="mag boxes (250, 254, 322, 420, 524) and formuler mag and formuler built-in portal mytvonline">
+        <div class="device-top">
+          <div class="device-info"><div class="device-avatar"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="8" width="18" height="8" rx="2"></rect><path d="M7 12h.01M11 12h6"></path></svg></div><div class="device-heading"><h2>MAG boxes (250, 254, 322, 420, 524) and Formuler</h2><p>MAG boxes are supported by B1G IPTV—set your portal with the server link from email and enjoy full live sports and on demand viewing.</p></div></div>
+          <div class="device-apps"><span class="app-badge recommended">Built-in portal</span><span class="app-badge">MyTVOnline</span></div>
+        </div>
+        <div class="steps-timeline"><div class="step-row"><div class="step-badge-num">1</div><div class="step-details"><h3>Find your MAC address</h3><p>The MAC address starts with <span class="step-code">00:1A:79</span> and is printed on the label under the box. You can also find it in <strong>Settings &gt; System Settings &gt; Device Info</strong>.</p></div></div><div class="step-row"><div class="step-badge-num">2</div><div class="step-details"><h3>Send us your MAC address</h3><p>Message us on <strong>WhatsApp</strong> or by email with your MAC address so we can activate your box.</p></div></div><div class="step-row"><div class="step-badge-num">3</div><div class="step-details"><h3>Enter the portal</h3><p>On your box open <strong>Settings &gt; System Settings &gt; Servers &gt; Portals</strong>. Set <strong>Portal 1 Name</strong> to your brand and <strong>Portal 1 URL</strong> to the portal URL from your confirmation email.</p></div></div><div class="step-row"><div class="step-badge-num">4</div><div class="step-details"><h3>Save and restart</h3><p>Save, go back and choose <strong>Reboot Device</strong>. The box loads your TV guide after it restarts.</p></div></div></div>
+      </section>
+      <section class="device-guide-card" id="dev-roku" data-device="roku" data-search="roku sticks and roku tv roku screen mirroring apple airplay web video caster">
+        <div class="device-top">
+          <div class="device-info"><div class="device-avatar"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 8V6a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2h-6"></path><path d="M2 12a9 9 0 0 1 8 8M2 16a5 5 0 0 1 4 4M2 20h.01"></path></svg></div><div class="device-heading"><h2>Roku sticks and Roku TV</h2><p>To watch on Roku, use an IPTV player channel and your B1G IPTV login details—we provide email support to guide you through the setup.</p></div></div>
+          <div class="device-apps"><span class="app-badge recommended">Screen mirroring</span><span class="app-badge">Apple AirPlay</span><span class="app-badge">Web Video Caster</span></div>
+        </div>
+        <div class="steps-timeline"><div class="step-row"><div class="step-badge-num">1</div><div class="step-details"><h3>Option A: AirPlay or screen mirroring (fastest)</h3><p>Play a channel in <strong>IPTV Smarters</strong> on your iPhone, iPad or Android phone. Tap the <strong>Cast</strong> or <strong>AirPlay</strong> icon and choose your Roku. Playback starts on the big screen.</p></div></div><div class="step-row"><div class="step-badge-num">2</div><div class="step-details"><h3>Option B: Web Video Caster</h3><p>Install <strong>Web Video Caster</strong> on your phone and on your Roku. Paste the <strong>M3U link</strong> from your confirmation email, choose your Roku and press play.</p><div class="step-tip">Roku does not run IPTV player apps directly, so casting is the way to watch on it.</div></div></div></div>
+      </section>
+      </div>
+      <p class="guide-empty" id="guide-empty">No device matches your search. Try another name or choose All Devices.</p>
+
+      <h2 class="guide-section-title" id="troubleshooting">Troubleshooting</h2>
+      <div class="faq-grid"><div class="faq-card"><button type="button"><span>I did not get my login details</span><span class="plus" aria-hidden="true"></span></button><div class="body">Check your inbox and your junk or spam folder. If the email is not there, message us and we will resend it.</div></div><div class="faq-card"><button type="button"><span>My login does not work</span><span class="plus" aria-hidden="true"></span></button><div class="body">Type the username, password and server URL again exactly as written in the email, with no spaces at the start or end.</div></div><div class="faq-card"><button type="button"><span>Channels do not load</span><span class="plus" aria-hidden="true"></span></button><div class="body">Restart the app and your device, then check that your internet connection works in another app.</div></div><div class="faq-card"><button type="button"><span>I still need help</span><span class="plus" aria-hidden="true"></span></button><div class="body">Message us on WhatsApp or email us. Support is available 24/7 and we help until your device is streaming.</div></div></div>
+
+      <section class="guide-cta">
+        <div class="guide-cta-box">
+          <h2>Need a hand with setup?</h2>
+          <p>Message us and we will help you until your device is streaming. Support is available 24/7 by email and WhatsApp.</p>
+          <div class="guide-cta-buttons">
+            <a class="install-wa-btn" href="https://api.whatsapp.com/send?phone=19145205753&text=Hi!%20I%20need%20help%20installing%20B1G%20IPTV%20(b1giptv.org)." id="install-whatsapp" target="_blank" rel="noopener noreferrer">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.26-.46-2.4-1.48-.89-.79-1.49-1.77-1.66-2.07-.17-.3-.02-.46.13-.61.14-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.08-.15-.67-1.62-.92-2.22-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.48 0 1.46 1.07 2.88 1.21 3.08.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.7.63.71.23 1.36.2 1.87.12.57-.08 1.76-.72 2-1.41.25-.7.25-1.29.17-1.41-.07-.12-.27-.2-.57-.35zM12.05 21.8h-.01a9.9 9.9 0 0 1-5.03-1.38l-.36-.21-3.74.98 1-3.65-.24-.37a9.86 9.86 0 0 1-1.51-5.26c0-5.45 4.44-9.88 9.9-9.88 2.64 0 5.12 1.03 6.99 2.9a9.82 9.82 0 0 1 2.9 6.99c0 5.45-4.44 9.88-9.9 9.88z"></path></svg>
+              <span>Chat on WhatsApp</span>
+            </a>
+            <a class="guide-cta-secondary" href="index.html#pricing">View plans</a>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+  <script>
+  (function(){
+    var chips=document.querySelectorAll('#guide-chips .guide-chip'),cards=document.querySelectorAll('.device-guide-card'),input=document.getElementById('guide-search'),empty=document.getElementById('guide-empty'),active='all';
+    function apply(){var q=(input.value||'').toLowerCase().trim(),shown=0;cards.forEach(function(c){var ok=(active==='all'||c.getAttribute('data-device')===active)&&(!q||(c.getAttribute('data-search')||'').indexOf(q)>-1);c.classList.toggle('is-hidden',!ok);if(ok)shown++;});empty.classList.toggle('show',shown===0);}
+    chips.forEach(function(ch){ch.addEventListener('click',function(){active=ch.getAttribute('data-filter');chips.forEach(function(x){x.classList.toggle('active',x===ch)});apply();});});
+    input.addEventListener('input',apply);
+    document.querySelectorAll('.faq-card button').forEach(function(b){b.addEventListener('click',function(){b.parentNode.classList.toggle('active');});});
+  })();
+  </script>
+
+  <script>
+    function handleContactSubmit(e) {
+      e.preventDefault();
+      var btn = document.getElementById('contactSubmitBtn');
+      var successBox = document.getElementById('contactFormSuccess');
+      var form = document.getElementById('contactForm');
+      
+      btn.disabled = true;
+      btn.innerHTML = '<span>Sending...</span>';
+      
+      setTimeout(function() {
+        successBox.classList.add('is-visible');
+        form.reset();
+        btn.disabled = false;
+        btn.innerHTML = '<span>Send Message</span><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>';
+        successBox.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+      }, 500);
+    }
+  </script>
+
+  <!-- =========================================================================
+       FOOTER
+       ========================================================================= -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Brand & Mission -->
+        <div class="footer-brand">
+          <a href="index.html" class="brand-logo" aria-label="B1G IPTV Homepage">
+            <span class="logo-icon" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100%" height="100%">
+  <defs>
+    <linearGradient id="tvkixBrandGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f04242"/>
+      <stop offset="100%" stop-color="#f04242"/>
+    </linearGradient>
+    <mask id="tvCutout_ytlbbv">
+      <rect width="100" height="100" fill="#ffffff"/>
+      <path d="M 73.5 46 L 96 59 L 73.5 72 Z" fill="#000000" stroke="#000000" stroke-width="18.5" stroke-linejoin="round" stroke-linecap="round"/>
+    </mask>
+  </defs>
+  <rect width="100" height="100" rx="24" fill="url(#tvkixBrandGrad)"/>
+  <path d="M 31 10 L 49.5 29 L 69 10" fill="none" stroke="#ffffff" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="10" y="29" width="69" height="57" rx="14" fill="none" stroke="#ffffff" stroke-width="7.5" stroke-linejoin="round" stroke-linecap="round" mask="url(#tvCutout_ytlbbv)"/>
+  <path d="M 73.5 46 L 96 59 L 73.5 72 Z" fill="#ffffff" stroke="#ffffff" stroke-width="5.5" stroke-linejoin="round" stroke-linecap="round"/>
+  <text x="44" y="58" font-family="-apple-system, BlinkMacSystemFont, 'Plus Jakarta Sans', 'Arial Black', 'Montserrat', sans-serif" font-size="44" font-weight="900" fill="#ffffff" text-anchor="middle" dominant-baseline="central" textLength="32" lengthAdjust="spacingAndGlyphs">B</text>
+</svg></span>
+            <span>B1G IPTV</span>
+          </a>
+          <p>
+            Ultra-stable 4K IPTV streaming infrastructure. Access 55,000+ live channels, 200,000+ VOD titles, and delivery within 30 minutes across all your devices.
+          </p>
+        </div>
+
+        <!-- Platform Navigation -->
+        <div>
+          <h3 class="footer-col-title">Platform</h3>
+            <ul class="footer-links">
+            <li><a href="index.html#features" class="footer-link">Channels &amp; VOD</a></li>
+            <li><a href="index.html#pricing" class="footer-link">Pricing Plans</a></li>
+            <li><a href="index.html#compatibility" class="footer-link">Supported Devices</a></li>
+            <li><a href="installation-help.html" class="footer-link">Setup Guide</a></li>
+            <li><a href="index.html#faq" class="footer-link">FAQ &amp; Help</a></li>
+          </ul>
+        </div>
+
+        <!-- Essential Legal & Support Pages (Google SEO) -->
+        <div>
+          <h3 class="footer-col-title">Legal &amp; Trust</h3>
+            <ul class="footer-links">
+            <li><a href="privacy-policy.html" class="footer-link">Privacy Policy</a></li>
+            <li><a href="refund-policy.html" class="footer-link">Refund &amp; 7-Day Guarantee</a></li>
+            <li><a href="terms.html" class="footer-link">Terms of Service</a></li>
+            <li><a href="about.html" class="footer-link">About Us</a></li>
+            <li><a href="contact.html" class="footer-link">Contact Us</a></li>
+            <li><a href="dmca.html" class="footer-link">DMCA Disclaimer</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>&copy; 2026 B1G IPTV. All rights reserved.</div>
+        <div class="footer-disclaimer">
+          Disclaimer: B1G IPTV does not host, store, or transmit unauthorized video files. All streams and playlists are handled through third-party protocols. Please ensure compliance with local regulations.
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
