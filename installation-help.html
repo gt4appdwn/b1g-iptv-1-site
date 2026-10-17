@@ -60,20 +60,20 @@
   <style>
     .guide-wrapper{padding:40px 0 20px}
     .guide-hero{text-align:center;padding:40px 0 30px}
-    .guide-badge{display:inline-flex;align-items:center;gap:8px;background:rgba(240, 66, 66, .08);border:1px solid rgba(240, 66, 66, .35);border-radius:9999px;padding:6px 16px;margin-bottom:24px;box-shadow:0 0 15px rgba(240, 66, 66, .15)}
+    .guide-badge{display:inline-flex;align-items:center;gap:8px;background:rgba(240, 66, 66,.08);border:1px solid rgba(240, 66, 66,.35);border-radius:9999px;padding:6px 16px;margin-bottom:24px;box-shadow:0 0 15px rgba(240, 66, 66,.15)}
     .guide-badge i{width:7px;height:7px;background:#f04242;border-radius:50%;box-shadow:0 0 8px #f04242}
     .guide-badge span{font-size:.8rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:#f04242}
     .guide-hero h1{font-size:clamp(2.1rem,5vw,3.2rem);font-weight:900;line-height:1.15;letter-spacing:-.03em;margin:0 0 18px;color:#fff}
-    .guide-hero h1 .accent{color:#f04242;text-shadow:0 0 30px rgba(240, 66, 66, .35)}
+    .guide-hero h1 .accent{color:#f04242;text-shadow:0 0 30px rgba(240, 66, 66,.35)}
     .guide-sub{max-width:720px;margin:0 auto 32px;font-size:1.08rem;color:#cbd5e1;line-height:1.6}
     .guide-search{max-width:650px;margin:0 auto 24px;position:relative}
     .guide-search input{width:100%;background:rgba(12,18,28,.85);border:1px solid rgba(255,255,255,.12);border-radius:9999px;padding:16px 24px 16px 54px;color:#fff;font-size:1rem;outline:none;transition:border-color .2s,box-shadow .2s}
-    .guide-search input:focus{border-color:#f04242;box-shadow:0 0 20px rgba(240, 66, 66, .25)}
+    .guide-search input:focus{border-color:#f04242;box-shadow:0 0 20px rgba(240, 66, 66,.25)}
     .guide-search svg{position:absolute;left:20px;top:50%;transform:translateY(-50%);color:#94a3b8;pointer-events:none}
     .guide-chips{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;max-width:980px;margin:0 auto}
     .guide-chip{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.1);border-radius:9999px;padding:8px 18px;font-size:.88rem;font-weight:600;color:#94a3b8;cursor:pointer;transition:all .2s}
-    .guide-chip:hover,.guide-chip.active{background:rgba(240, 66, 66, .12);border-color:#f04242;color:#fff;box-shadow:0 2px 12px rgba(240, 66, 66, .2)}
-    .quick-card{background:linear-gradient(135deg,rgba(240, 66, 66, .1),rgba(9,14,23,.9));border:1px solid rgba(240, 66, 66, .3);border-radius:24px;padding:32px 36px;margin:36px 0;box-shadow:0 10px 40px rgba(0,0,0,.5)}
+    .guide-chip:hover,.guide-chip.active{background:rgba(240, 66, 66,.12);border-color:#f04242;color:#fff;box-shadow:0 2px 12px rgba(240, 66, 66,.2)}
+    .quick-card{background:linear-gradient(135deg,rgba(240, 66, 66,.1),rgba(9,14,23,.9));border:1px solid rgba(240, 66, 66,.3);border-radius:24px;padding:32px 36px;margin:36px 0;box-shadow:0 10px 40px rgba(0,0,0,.5)}
     .quick-card h2{font-size:1.5rem;font-weight:800;color:#fff;margin:0 0 6px}
     .quick-card>p{color:#cbd5e1;margin:0 0 22px}
     .quick-grid{display:grid;grid-template-columns:1fr;gap:14px}
@@ -81,25 +81,25 @@
     .quick-box{display:flex;gap:12px;align-items:flex-start;background:rgba(0,0,0,.3);border:1px solid rgba(255,255,255,.08);border-radius:14px;padding:16px}
     .quick-box strong{display:block;color:#fff;margin-bottom:4px}
     .quick-box span.t{color:#cbd5e1;font-size:.9rem;line-height:1.5}
-    .step-badge-num{width:32px;height:32px;border-radius:50%;background:rgba(240, 66, 66, .12);border:1px solid #f04242;color:#f04242;font-size:.88rem;font-weight:800;display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:2px}
+    .step-badge-num{width:32px;height:32px;border-radius:50%;background:rgba(240, 66, 66,.12);border:1px solid #f04242;color:#f04242;font-size:.88rem;font-weight:800;display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:2px}
     .device-guide-card{background:#0e1118;border:1px solid rgba(255,255,255,.08);border-radius:24px;padding:36px 38px;margin-bottom:32px;transition:border-color .2s,box-shadow .2s;scroll-margin-top:90px}
-    .device-guide-card:hover{border-color:rgba(240, 66, 66, .3);box-shadow:0 12px 35px rgba(0,0,0,.6)}
+    .device-guide-card:hover{border-color:rgba(240, 66, 66,.3);box-shadow:0 12px 35px rgba(0,0,0,.6)}
     .device-top{display:flex;flex-direction:column;gap:18px;margin-bottom:26px;padding-bottom:22px;border-bottom:1px solid rgba(255,255,255,.06)}
     .device-info{display:flex;align-items:center;gap:18px}
-    .device-avatar{width:60px;height:60px;border-radius:16px;background:rgba(240, 66, 66, .1);border:1px solid rgba(240, 66, 66, .3);display:flex;align-items:center;justify-content:center;color:#f04242;flex-shrink:0}
+    .device-avatar{width:60px;height:60px;border-radius:16px;background:rgba(240, 66, 66,.1);border:1px solid rgba(240, 66, 66,.3);display:flex;align-items:center;justify-content:center;color:#f04242;flex-shrink:0}
     .device-heading h2{font-size:1.55rem;font-weight:800;color:#fff;margin:0 0 4px}
     .device-heading p{font-size:.95rem;color:#94a3b8;margin:0;line-height:1.5}
     .device-apps{display:flex;flex-wrap:wrap;gap:8px}
     .app-badge{background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.1);padding:5px 12px;border-radius:9999px;font-size:.8rem;font-weight:600;color:#cbd5e1}
-    .app-badge.recommended{background:rgba(240, 66, 66, .14);border-color:rgba(240, 66, 66, .4);color:#f04242}
+    .app-badge.recommended{background:rgba(240, 66, 66,.14);border-color:rgba(240, 66, 66,.4);color:#f04242}
     .steps-timeline{display:flex;flex-direction:column;gap:20px}
     .step-row{display:flex;gap:18px;align-items:flex-start}
     .step-details{flex:1;min-width:0}
     .step-details h3{font-size:1.05rem;font-weight:700;color:#fff;margin:0 0 6px}
     .step-details p{font-size:.95rem;color:#cbd5e1;line-height:1.65;margin:0}
     .step-details strong{color:#fff}
-    .step-code{display:inline-block;background:rgba(0,0,0,.4);border:1px solid rgba(240, 66, 66, .3);border-radius:6px;padding:2px 10px;font-family:ui-monospace,monospace;font-size:.9rem;color:#f04242;font-weight:700;margin:2px 0}
-    .step-tip{background:rgba(240, 66, 66, .05);border-left:3px solid #f04242;padding:12px 18px;border-radius:0 8px 8px 0;margin-top:12px;font-size:.88rem;color:#cbd5e1;line-height:1.6}
+    .step-code{display:inline-block;background:rgba(0,0,0,.4);border:1px solid rgba(240, 66, 66,.3);border-radius:6px;padding:2px 10px;font-family:ui-monospace,monospace;font-size:.9rem;color:#f04242;font-weight:700;margin:2px 0}
+    .step-tip{background:rgba(240, 66, 66,.05);border-left:3px solid #f04242;padding:12px 18px;border-radius:0 8px 8px 0;margin-top:12px;font-size:.88rem;color:#cbd5e1;line-height:1.6}
     .device-guide-card.is-hidden{display:none}
     .guide-empty{display:none;text-align:center;color:#94a3b8;padding:40px 0}
     .guide-empty.show{display:block}
@@ -114,7 +114,7 @@
     .faq-card.active .body{display:block}
     .guide-section-title{font-size:1.5rem;font-weight:800;color:#fff;margin:50px 0 6px}
     .guide-cta{padding:30px 0 70px}
-    .guide-cta-box{background:radial-gradient(ellipse 70% 65% at 50% 50%,rgba(240, 66, 66, .15) 0%,rgba(12,18,28,.9) 70%);border:1px solid rgba(240, 66, 66, .3);border-radius:24px;padding:56px 28px;text-align:center;box-shadow:0 10px 40px rgba(0,0,0,.6)}
+    .guide-cta-box{background:radial-gradient(ellipse 70% 65% at 50% 50%,rgba(240, 66, 66,.15) 0%,rgba(12,18,28,.9) 70%);border:1px solid rgba(240, 66, 66,.3);border-radius:24px;padding:56px 28px;text-align:center;box-shadow:0 10px 40px rgba(0,0,0,.6)}
     .guide-cta-box h2{font-size:clamp(1.6rem,4vw,2.2rem);font-weight:900;color:#fff;margin:0 0 14px}
     .guide-cta-box p{max-width:600px;margin:0 auto 28px;color:#cbd5e1;font-size:1.05rem;line-height:1.6}
     .guide-cta-buttons{display:flex;flex-wrap:wrap;gap:14px;justify-content:center}
@@ -129,7 +129,7 @@
         
         :root {
             --accent: #f04242 !important;
-            --accent-hover: #f97316 !important;
+            --accent-hover: #bb3333 !important;
             --accent-text: #ffffff !important;
             --accent-light: rgba(240, 66, 66, 0.12) !important;
             --primary: #f04242 !important;
@@ -168,7 +168,7 @@
         /* Hero Headline & Title Bottom Accent */
         .title-bottom {
             color: #f04242 !important;
-            background: linear-gradient(135deg, rgb(247, 151, 151) 0%, #f04242 50%, #f97316 100%) !important;
+            background: linear-gradient(135deg, rgb(247, 151, 151) 0%, #f04242 50%, #bb3333 100%) !important;
             -webkit-background-clip: text !important;
             -webkit-text-fill-color: transparent !important;
             background-clip: text !important;
@@ -203,7 +203,7 @@
             box-shadow: 0 0 25px rgba(240, 66, 66, 0.5) !important; 
         }
         .btn-pill-primary:hover, .btn-primary:hover {
-            background: #f97316 !important;
+            background: #bb3333 !important;
             box-shadow: 0 0 35px rgba(240, 66, 66, 0.75) !important;
         }
 
@@ -274,7 +274,7 @@
             width: 100%;
             padding: 2px;
             border-radius: 24px;
-            background: linear-gradient(135deg, #f04242 0%, rgba(240, 66, 66, 0.12) 48%, #f97316 100%);
+            background: linear-gradient(135deg, #f04242 0%, rgba(240, 66, 66, 0.12) 48%, #bb3333 100%);
             box-shadow: 0 28px 60px -18px rgba(0,0,0,0.75), 0 0 46px -8px rgba(240, 66, 66, 0.38);
             transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.35s ease;
         }
@@ -398,7 +398,7 @@
 
         /* Journey Banner */
         .journey-banner {
-            background: linear-gradient(135deg, #f04242 0%, #f97316 100%) !important;
+            background: linear-gradient(135deg, #f04242 0%, #bb3333 100%) !important;
             box-shadow: 0 15px 45px rgba(240, 66, 66, 0.3) !important;
         }
         .mockup-submit-btn, .mockup-download-btn {
@@ -487,7 +487,7 @@
             box-shadow: 0 0 8px #f04242 !important;
         }
         .cta-main-btn {
-            background: linear-gradient(135deg, #f04242 0%, #f97316 100%) !important;
+            background: linear-gradient(135deg, #f04242 0%, #bb3333 100%) !important;
             color: #ffffff !important;
             box-shadow: 0 12px 28px -4px rgba(240, 66, 66, 0.5), inset 0 1px 0 rgba(255,255,255,0.3) !important;
         }
@@ -538,18 +538,20 @@
       <a href="./" class="brand-logo" aria-label="B1G IPTV Homepage">
         <span class="logo-icon" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100%" height="100%">
   <defs>
-    <linearGradient id="iconGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+    <linearGradient id="iconGrad_wsg7m9" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#f04242"/>
       <stop offset="100%" stop-color="#f04242"/>
     </linearGradient>
-    <mask id="tvCutout_nhpxcp">
+  </defs>
+  <rect width="100" height="100" rx="24" fill="url(#iconGrad_wsg7m9)"/>
+  <defs>
+    <mask id="iconCut_wsg7m9">
       <rect width="100" height="100" fill="#ffffff"/>
       <path d="M 73.5 46 L 96 59 L 73.5 72 Z" fill="#000000" stroke="#000000" stroke-width="18.5" stroke-linejoin="round" stroke-linecap="round"/>
     </mask>
   </defs>
-  <rect width="100" height="100" rx="24" fill="url(#iconGrad)"/>
   <path d="M 31 10 L 49.5 29 L 69 10" fill="none" stroke="#ffffff" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
-  <rect x="10" y="29" width="69" height="57" rx="14" fill="none" stroke="#ffffff" stroke-width="7.5" stroke-linejoin="round" stroke-linecap="round" mask="url(#tvCutout_nhpxcp)"/>
+  <rect x="10" y="29" width="69" height="57" rx="14" fill="none" stroke="#ffffff" stroke-width="7.5" stroke-linejoin="round" stroke-linecap="round" mask="url(#iconCut_wsg7m9)"/>
   <path d="M 73.5 46 L 96 59 L 73.5 72 Z" fill="#ffffff" stroke="#ffffff" stroke-width="5.5" stroke-linejoin="round" stroke-linecap="round"/>
   <text x="44" y="58" font-family="-apple-system, BlinkMacSystemFont, 'Plus Jakarta Sans', 'Arial Black', 'Montserrat', sans-serif" font-size="44" font-weight="900" fill="#ffffff" text-anchor="middle" dominant-baseline="central" textLength="32" lengthAdjust="spacingAndGlyphs">B</text>
 </svg></span>
@@ -711,25 +713,27 @@
           <a href="./" class="brand-logo" aria-label="B1G IPTV Homepage">
             <span class="logo-icon" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100%" height="100%">
   <defs>
-    <linearGradient id="iconGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+    <linearGradient id="iconGrad_wsg7m9" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#f04242"/>
       <stop offset="100%" stop-color="#f04242"/>
     </linearGradient>
-    <mask id="tvCutout_nhpxcp">
+  </defs>
+  <rect width="100" height="100" rx="24" fill="url(#iconGrad_wsg7m9)"/>
+  <defs>
+    <mask id="iconCut_wsg7m9">
       <rect width="100" height="100" fill="#ffffff"/>
       <path d="M 73.5 46 L 96 59 L 73.5 72 Z" fill="#000000" stroke="#000000" stroke-width="18.5" stroke-linejoin="round" stroke-linecap="round"/>
     </mask>
   </defs>
-  <rect width="100" height="100" rx="24" fill="url(#iconGrad)"/>
   <path d="M 31 10 L 49.5 29 L 69 10" fill="none" stroke="#ffffff" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
-  <rect x="10" y="29" width="69" height="57" rx="14" fill="none" stroke="#ffffff" stroke-width="7.5" stroke-linejoin="round" stroke-linecap="round" mask="url(#tvCutout_nhpxcp)"/>
+  <rect x="10" y="29" width="69" height="57" rx="14" fill="none" stroke="#ffffff" stroke-width="7.5" stroke-linejoin="round" stroke-linecap="round" mask="url(#iconCut_wsg7m9)"/>
   <path d="M 73.5 46 L 96 59 L 73.5 72 Z" fill="#ffffff" stroke="#ffffff" stroke-width="5.5" stroke-linejoin="round" stroke-linecap="round"/>
   <text x="44" y="58" font-family="-apple-system, BlinkMacSystemFont, 'Plus Jakarta Sans', 'Arial Black', 'Montserrat', sans-serif" font-size="44" font-weight="900" fill="#ffffff" text-anchor="middle" dominant-baseline="central" textLength="32" lengthAdjust="spacingAndGlyphs">B</text>
 </svg></span>
             <span>B1G IPTV</span>
           </a>
           <p>
-            Ultra-stable 4K IPTV streaming infrastructure. Access 55,000+ live channels, 200,000+ VOD titles, and delivery within 30 minutes across all your devices.
+            B1G IPTV brings premium sports and entertainment to your screen in real 4K quality, with fast setup and human support. Discover more content, your way.
           </p>
         </div>
 
@@ -762,7 +766,7 @@
       <div class="footer-bottom">
         <div>&copy; 2026 B1G IPTV. All rights reserved.</div>
         <div class="footer-disclaimer">
-          Disclaimer: B1G IPTV does not host, store, or transmit unauthorized video files. All streams and playlists are handled through third-party protocols. Please ensure compliance with local regulations.
+          B1G IPTV does not host or upload any video content. Viewers are responsible for using the service according to their local laws.
         </div>
       </div>
     </div>
