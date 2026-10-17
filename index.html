@@ -10,6 +10,7 @@
   <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
   <meta name="format-detection" content="telephone=no">
   <link rel="canonical" href="https://b1giptv.org/">
+  <link rel="preload" href="/assets/fonts/plus-jakarta-sans.woff2" as="font" type="font/woff2" crossorigin>
   <meta name="theme-color" content="#08080a">
 
   <!-- Site favicon: real image files, which Google Search reads -->
@@ -25,7 +26,7 @@
   <meta property="og:title" content="B1G IPTV: Premium 4K IPTV & Live Sports | Free Trial">
   <meta property="og:description" content="Stream 4K and 8K channels, sports, and on-demand titles with B1G IPTV. Start your 24-hour free trial now and see everything live. Plans for every budget.">
   <meta property="og:site_name" content="B1G IPTV">
-  <meta property="og:image" content="https://b1giptv.org/images/b1g-iptv-live-tv-1792244709050.webp">
+  <meta property="og:image" content="https://b1giptv.org/images/share-b1g-iptv-live-tv-1792244709050.jpg">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   <meta property="og:image:alt" content="B1G IPTV Ultra-Stable 4K IPTV Streaming Service">
@@ -34,7 +35,7 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="B1G IPTV: Premium 4K IPTV & Live Sports | Free Trial">
   <meta name="twitter:description" content="Stream 4K and 8K channels, sports, and on-demand titles with B1G IPTV. Start your 24-hour free trial now and see everything live. Plans for every budget.">
-  <meta name="twitter:image" content="https://b1giptv.org/images/b1g-iptv-live-tv-1792244709050.webp">
+  <meta name="twitter:image" content="https://b1giptv.org/images/share-b1g-iptv-live-tv-1792244709050.jpg">
 
   <!-- Self-Hosted Critical Variable Font loaded via @font-face with font-display: swap -->
 
@@ -755,12 +756,11 @@
         "@id": "https://b1giptv.org/#organization",
         "name": "B1G IPTV",
         "url": "https://b1giptv.org/",
-        "logo": "https://b1giptv.org/assets/logo.svg",
+        "logo": "https://b1giptv.org/assets/favicon-512x512.png",
         "contactPoint": {
           "@type": "ContactPoint",
           "contactType": "customer support",
           "email": "support@b1giptv.org",
-          "availableLanguage": ["English", "Spanish", "French", "German", "Arabic"],
           "url": "https://b1giptv.org/contact.html"
         }
       },
@@ -787,8 +787,8 @@
           "@type": "AggregateOffer",
           "priceCurrency": "USD",
           "lowPrice": "14.99",
-          "highPrice": "66.99",
-          "offerCount": "4"
+          "highPrice": "219.99",
+          "offerCount": "20"
         }
       },
       {
@@ -1229,7 +1229,7 @@
             background: rgba(240, 66, 66, 0.08) !important;
             border: 1px solid rgba(240, 66, 66, 0.28) !important;
         }
-        .policy-highlight h3 { color: #f04242 !important; }
+        .policy-highlight h2, .policy-highlight h3 { color: #f04242 !important; }
         .contact-channel-item:hover {
             border-color: rgba(240, 66, 66, 0.4) !important;
         }
@@ -1263,18 +1263,18 @@
       <a href="#" class="brand-logo" aria-label="B1G IPTV Homepage">
         <span class="logo-icon" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100%" height="100%">
   <defs>
-    <linearGradient id="tvkixBrandGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+    <linearGradient id="iconGrad" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#f04242"/>
       <stop offset="100%" stop-color="#f04242"/>
     </linearGradient>
-    <mask id="tvCutout_rg1xez">
+    <mask id="tvCutout_eromsl">
       <rect width="100" height="100" fill="#ffffff"/>
       <path d="M 73.5 46 L 96 59 L 73.5 72 Z" fill="#000000" stroke="#000000" stroke-width="18.5" stroke-linejoin="round" stroke-linecap="round"/>
     </mask>
   </defs>
-  <rect width="100" height="100" rx="24" fill="url(#tvkixBrandGrad)"/>
+  <rect width="100" height="100" rx="24" fill="url(#iconGrad)"/>
   <path d="M 31 10 L 49.5 29 L 69 10" fill="none" stroke="#ffffff" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
-  <rect x="10" y="29" width="69" height="57" rx="14" fill="none" stroke="#ffffff" stroke-width="7.5" stroke-linejoin="round" stroke-linecap="round" mask="url(#tvCutout_rg1xez)"/>
+  <rect x="10" y="29" width="69" height="57" rx="14" fill="none" stroke="#ffffff" stroke-width="7.5" stroke-linejoin="round" stroke-linecap="round" mask="url(#tvCutout_eromsl)"/>
   <path d="M 73.5 46 L 96 59 L 73.5 72 Z" fill="#ffffff" stroke="#ffffff" stroke-width="5.5" stroke-linejoin="round" stroke-linecap="round"/>
   <text x="44" y="58" font-family="-apple-system, BlinkMacSystemFont, 'Plus Jakarta Sans', 'Arial Black', 'Montserrat', sans-serif" font-size="44" font-weight="900" fill="#ffffff" text-anchor="middle" dominant-baseline="central" textLength="32" lengthAdjust="spacingAndGlyphs">B</text>
 </svg></span>
@@ -1822,7 +1822,7 @@
                     <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
                   </div>
                   <div>
-                    <div class="multi-trust-title">Instant Activation</div>
+                    <div class="multi-trust-title">Delivered by Email</div>
                     <div class="multi-trust-desc">After payment</div>
                   </div>
                 </div>
@@ -2349,18 +2349,18 @@
           <a href="#" class="brand-logo" aria-label="B1G IPTV Homepage">
             <span class="logo-icon" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100%" height="100%">
   <defs>
-    <linearGradient id="tvkixBrandGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+    <linearGradient id="iconGrad" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#f04242"/>
       <stop offset="100%" stop-color="#f04242"/>
     </linearGradient>
-    <mask id="tvCutout_rg1xez">
+    <mask id="tvCutout_eromsl">
       <rect width="100" height="100" fill="#ffffff"/>
       <path d="M 73.5 46 L 96 59 L 73.5 72 Z" fill="#000000" stroke="#000000" stroke-width="18.5" stroke-linejoin="round" stroke-linecap="round"/>
     </mask>
   </defs>
-  <rect width="100" height="100" rx="24" fill="url(#tvkixBrandGrad)"/>
+  <rect width="100" height="100" rx="24" fill="url(#iconGrad)"/>
   <path d="M 31 10 L 49.5 29 L 69 10" fill="none" stroke="#ffffff" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
-  <rect x="10" y="29" width="69" height="57" rx="14" fill="none" stroke="#ffffff" stroke-width="7.5" stroke-linejoin="round" stroke-linecap="round" mask="url(#tvCutout_rg1xez)"/>
+  <rect x="10" y="29" width="69" height="57" rx="14" fill="none" stroke="#ffffff" stroke-width="7.5" stroke-linejoin="round" stroke-linecap="round" mask="url(#tvCutout_eromsl)"/>
   <path d="M 73.5 46 L 96 59 L 73.5 72 Z" fill="#ffffff" stroke="#ffffff" stroke-width="5.5" stroke-linejoin="round" stroke-linecap="round"/>
   <text x="44" y="58" font-family="-apple-system, BlinkMacSystemFont, 'Plus Jakarta Sans', 'Arial Black', 'Montserrat', sans-serif" font-size="44" font-weight="900" fill="#ffffff" text-anchor="middle" dominant-baseline="central" textLength="32" lengthAdjust="spacingAndGlyphs">B</text>
 </svg></span>
