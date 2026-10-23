@@ -355,7 +355,7 @@ ul, ol {
 }
 
 .brand-accent {
-  color: var(--accent);
+  color: var(--accent-ink, var(--accent));
 }
 
 .nav-menu {
@@ -597,7 +597,7 @@ ul, ol {
 }
 
 .title-bottom {
-  color: #f04242;
+  color: var(--accent-ink, #f04242);
   background: linear-gradient(135deg, #f04242 0%, #f04242 50%, #bb3333 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -815,7 +815,7 @@ ul, ol {
 }
 
 .metric-val .accent-mark {
-  color: #f04242;
+  color: var(--accent-ink, #f04242);
   margin-left: 2px;
 }
 
@@ -963,7 +963,7 @@ ul, ol {
 }
 
 .category-card:hover .category-card-label {
-  color: #f04242;
+  color: var(--accent-ink, #f04242);
 }
 
 @media (max-width: 640px) {
@@ -1055,7 +1055,7 @@ ul, ol {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #f04242;
+  color: var(--accent-ink, #f04242);
   margin-bottom: 1.25rem;
   flex-shrink: 0;
 }
@@ -1079,7 +1079,7 @@ ul, ol {
   z-index: 1;
   width: 32px;
   height: 32px;
-  color: #f04242;
+  color: var(--accent-ink, #f04242);
 }
 
 .benefit-title {
@@ -1147,7 +1147,7 @@ ul, ol {
   font-weight: 800;
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  color: #f04242;
+  color: var(--accent-ink, #f04242);
   margin-bottom: 0.875rem;
 }
 
@@ -1190,7 +1190,7 @@ ul, ol {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  color: #f04242;
+  color: var(--accent-ink, #f04242);
   flex-shrink: 0;
 }
 
@@ -1485,7 +1485,7 @@ ul, ol {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--accent);
+  color: var(--accent-ink, var(--accent));
   background-color: rgba(240, 66, 66, 0.08);
 }
 
@@ -1637,7 +1637,7 @@ ul, ol {
 }
 
 .plan-card-subtitle.featured-subtitle {
-  color: var(--accent);
+  color: var(--accent-ink, var(--accent));
 }
 
 .plan-card-price-row {
@@ -1657,7 +1657,7 @@ ul, ol {
 
 .plan-card-amount.featured-amount {
   font-size: 3.25rem;
-  color: var(--accent);
+  color: var(--accent-ink, var(--accent));
   letter-spacing: -0.04em;
 }
 
@@ -1682,7 +1682,7 @@ ul, ol {
   gap: 0.375rem;
   background-color: rgba(240, 66, 66, 0.1);
   border: 1px solid rgba(240, 66, 66, 0.25);
-  color: var(--accent);
+  color: var(--accent-ink, var(--accent));
   font-size: 0.8125rem;
   font-weight: 600;
   padding: 0.35rem 0.875rem;
@@ -1714,7 +1714,7 @@ ul, ol {
 }
 
 .plan-card-feature .check-icon {
-  color: var(--accent);
+  color: var(--accent-ink, var(--accent));
   width: 18px;
   height: 18px;
   flex-shrink: 0;
@@ -1796,7 +1796,7 @@ ul, ol {
   max-width: 16px !important;
   max-height: 16px !important;
   flex-shrink: 0;
-  color: var(--accent);
+  color: var(--accent-ink, var(--accent));
 }
 
 /* --------------------------------------------------------------------------
@@ -1852,7 +1852,7 @@ ul, ol {
   align-items: center;
   justify-content: center;
   margin-bottom: 1.15rem;
-  color: #f04242;
+  color: var(--accent-ink, #f04242);
   flex-shrink: 0;
 }
 
@@ -1915,7 +1915,7 @@ ul, ol {
 }
 
 .device-card:hover .device-micro-tag {
-  color: #f04242;
+  color: var(--accent-ink, #f04242);
   background: rgba(240, 66, 66, 0.08);
   border-color: rgba(240, 66, 66, 0.25);
 }
@@ -1972,7 +1972,7 @@ ul, ol {
 
 .faq-item[open] .faq-chevron {
   transform: rotate(180deg);
-  color: var(--accent);
+  color: var(--accent-ink, var(--accent));
 }
 
 .faq-answer {
@@ -2037,7 +2037,7 @@ ul, ol {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.08em;
-  color: #f04242;
+  color: var(--accent-ink, #f04242);
   background: rgba(240, 66, 66, 0.08);
   border: 1px solid rgba(240, 66, 66, 0.25);
   padding: 0.38rem 1.1rem;
@@ -2211,7 +2211,7 @@ ul, ol {
 }
 
 .footer-link:hover {
-  color: var(--accent);
+  color: var(--accent-ink, var(--accent));
 }
 
 .footer-bottom {
@@ -2267,7 +2267,7 @@ ul, ol {
 }
 
 .policy-breadcrumbs a:hover {
-  color: var(--accent);
+  color: var(--accent-ink, var(--accent));
 }
 
 .policy-header {
@@ -2361,7 +2361,7 @@ ul, ol {
 .policy-highlight h3 {
   font-size: 1.1rem;
   font-weight: 700;
-  color: #f04242;
+  color: var(--accent-ink, #f04242);
   margin: 0 0 0.5rem;
   display: flex;
   align-items: center;
@@ -2456,7 +2456,7 @@ ul, ol {
   border-radius: 14px;
   background: rgba(240, 66, 66, 0.1);
   border: 1px solid rgba(240, 66, 66, 0.25);
-  color: var(--accent);
+  color: var(--accent-ink, var(--accent));
   display: flex;
   align-items: center;
   justify-content: center;
@@ -2480,7 +2480,7 @@ ul, ol {
 .contact-channel-link {
   font-size: 0.9375rem;
   font-weight: 600;
-  color: var(--accent);
+  color: var(--accent-ink, var(--accent));
   text-decoration: none;
   display: inline-flex;
   align-items: center;
@@ -2489,7 +2489,7 @@ ul, ol {
 }
 
 .contact-channel-link:hover {
-  color: #f04242;
+  color: var(--accent-ink, #f04242);
   text-decoration: underline;
 }
 
